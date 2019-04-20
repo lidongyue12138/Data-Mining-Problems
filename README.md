@@ -130,7 +130,7 @@ Convexity means the global optimum is unique and we can use Gradient-based metho
 
 **36) Why we often want to project a distance “measure” to a different space?**  ⭐️
 
-In many situations, the real data space is usually non-Euclidean. Therefore, we want to project a distance measured in Euclidean space to its real space. (nonlinear $/Rightarrow$ linear) 
+In many situations, the real data space is usually non-Euclidean. Therefore, we want to project a distance measured in Euclidean space to its real space. (nonlinear $\Rightarrow $ linear) 
 
 **37) What a Turin machine can do? What some of the key computable problems a Turin machine can do?**
 

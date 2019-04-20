@@ -130,7 +130,7 @@ Convexity means the global optimum is unique and we can use Gradient-based metho
 
 **36) Why we often want to project a distance “measure” to a different space?**  ⭐️
 
-In many situations, the real data space is usually non-Euclidean. Therefore, we want to project a distance measured in Euclidean space to its real space. (nonlinear $\Rightarrow $ linear) 
+In many situations, the real data space is usually non-Euclidean. Therefore, we want to project a distance measured in Euclidean space to its real space. (nonlinear $\Rightarrow$ linear) 
 
 **37) What a Turin machine can do? What some of the key computable problems a Turin machine can do?**
 
@@ -264,7 +264,7 @@ Answer from Newly:
 
 ![微信图片_20190420171110](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420171110.png)
 
-![微信图片_20190420171114](C:/Users/54942/Desktop/DM_Fina.g)
+![微信图片_20190420171114](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420171114.png)
 
 Question2:
 
@@ -303,7 +303,7 @@ Loss:
 
 Mathematical justification for deep learning.
 
-(YB writes something on the blackboard...which explains this problem. Something about $n/log n$ overhead for $n^2$ capacity)
+(YB writes something on the blackboard...which explains this problem. Something about $n\log n$ overhead for $n^2$ capacity)
 
 Pruning/Dimension Reduction: Sparsity.
 
@@ -343,7 +343,7 @@ YB's own answer: Two examples
 
 **10) Why does the feature decomposition in deep learning then a topological recombination could make a better sampling? What would be the potential problems making deep learning not a viable approach?** 006:40:53
 
-DL is able to decompose data into different primitive parts. These parts cam recombine those other parts. This exponentially or factorially increase the data for possible combinations. This increase the sample capacity and can generate sample $/Rightarrow$ GAN
+DL is able to decompose data into different primitive parts. These parts cam recombine those other parts. This exponentially or factorially increase the data for possible combinations. This increase the sample capacity and can generate sample $\Rightarrow$ GAN
 
 Potential problems: (on slides)
 
@@ -420,8 +420,8 @@ Using model combination to get a more complex and expressive model, and also fit
 
 From less expressive to more expressive (increase of model expressiveness): 
 
-- For classification: we use $/{+1, -1/}$ or $ /{0, 1/}$
-- Cluster: we look at $/{0, 1/}$ in terms of their combination $/Rightarrow$ Marginal
+- For classification: we use $\{+1, -1\}$ or $ \{0, 1\}$
+- Cluster: we look at $\{0, 1\}$ in terms of their combination $\Rightarrow$ Marginal
 - HMM: model process as a inference and condition that can be updated
 
 **3) What are the potential risks we could take when trying to perform a logistic regression for classification using a sparsity-based regularization?**⭐️ 007:06:14
@@ -440,22 +440,22 @@ For linear model:
 
 **4) Give five different structural constrains for optimization with their corresponding scalars;**⭐️ 007:08:45
 
-- L1 norm: $||x||_{L1} = /sum_{r=1}^{n} |x_i|$ 
+- L1 norm: $||x||_{L1} = \sum_{r=1}^{n} |x_i|$ 
 
   more aggressive
 
-- L2 norm: $||x||_{L2} = /sqrt{/sum_{r=1}^{n} x_i^2}$
+- L2 norm: $||x||_{L2} = \sqrt{\sum_{r=1}^{n} x_i^2}$
 
   more smooth (想象两者的图像)
 
 Matrix Norm
 $$
-||A||_p = \left(\sum_{i}^{\min\{m,n\}} \sigma_i^p(A) \right)^{1\p}
+||A||_p = \left(\sum_{i}^{\min\{m,n\}} \sigma_i^p(A) \right)^{1/p}
 $$
 
-- Frobenius norm ($p = 2$): $||A||_{F} = /sqrt{/sum_i^{m}/sum_j^n a_{ij}^2}$
+- Frobenius norm ($p = 2$): $||A||_{F} = \sqrt{\sum_i^{m}\sum_j^n a_{ij}^2}$
 - Nuclear norm ($p=1$): the sum of singular value
-- Spectrum norm ($p = /infty$): maximum singular value
+- Spectrum norm ($p = \infty$): maximum singular value
 
 **5) Give all universal, engineering, and computational principles that we have learned in this course to obtain both conceptually low-complexity model and computationally tractable algorithms?**
 
@@ -593,3 +593,4 @@ Both problems are exhaustive (inverse and ill-posed).
    [Sparse PCA through Low-rank Approximations](<http://proceedings.mlr.press/v28/papailiopoulos13.pdf>)
 
 4. 
+

@@ -32,7 +32,7 @@ dimensionality reduction. Regularization. low D solution to high D problem.
 
 **12) What is a loss function? Give three examples (Square, Log, Hinge) and describe their shapes and behaviors.** ⭐️
 
-![微信图片_20190420110309](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420110309.png)
+![微信图片_20190420110309](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420110309.png)
 
 **13) Using these losses to approach the linear boundary of a overlapping problem, inevitably some risks will be incurred; give two different approaches to remedy the risk using the SVM-based hinge loss as an example.** ⭐️
 
@@ -42,15 +42,15 @@ dimensionality reduction. Regularization. low D solution to high D problem.
 
 **14) Describe biases (under-fitting) and variance (over-fitting) issue in learning, and how can we select and validate an appropriate model?** ⭐️
 
-![微信图片_20190420110834](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420110834.png)
+![微信图片_20190420110834](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420110834.png)
 
 **15) How to control model complexity in the regression of a linear model? Are there supposed to be a unique low-dimensional model for a given high dimensional problem?**
 
 **16) Using the Least Square as the objective function, we try to find the best set of parameters; what is the statistical justification for the Lease Square if the underlying distribution is Gaussian?** ⭐️
 
-![微信图片_20190420111014](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420111014.png)
+![微信图片_20190420111014](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420111014.png)
 
-![微信图片_20190420111017](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420111017.png)
+![微信图片_20190420111017](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420111017.png)
 
 **17) Could you describe the convexity as to how it would facilitate a search? Using the Least Square-based regression and Likelihood-based estimation as the examples?** ⭐️
 
@@ -72,7 +72,7 @@ Convexity means the global optimum is unique and we can use Gradient-based metho
 
 **20) Give a probabilistic interpretation for logistic regression, how is it related to the MLE-based generative methods from a Bayesian perspective?**​ ⭐️
 
-![微信图片_20190420111505](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420111505.png)
+![微信图片_20190420111505](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420111505.png)
 
 **21) What are the mathematical bases for the logics regression being the universal posterior for the data distributed in any kinds of exponential family members?** 
 
@@ -84,7 +84,7 @@ Convexity means the global optimum is unique and we can use Gradient-based metho
 
 **25) Compare the generative and discriminative methods from a Bayesian point of view?** ⭐️
 
-![微信图片_20190420111654](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420111654.png)
+![微信图片_20190420111654](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420111654.png)
 
 **26) What are the most important assumption for something Naïve but still very effective? For instance for classifying different documents?**
 
@@ -92,7 +92,7 @@ Convexity means the global optimum is unique and we can use Gradient-based metho
 
 **28) What are the key advantages of linear models? But why linear model tends not expressive?** ⭐️
 
-![微信图片_20190420111831](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420111831.png)
+![微信图片_20190420111831](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420111831.png)
 
 29) What are the key problems with the complex Neural Network with complex integrations of non-linear model? 
 
@@ -104,33 +104,33 @@ Convexity means the global optimum is unique and we can use Gradient-based metho
 
 **31) What is the dual problem? What is strong duality?**⭐️
 
-![微信图片_20190420111954](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420111954.png)
+![微信图片_20190420111954](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420111954.png)
 
-![微信图片_20190420111958](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420111958.png)
+![微信图片_20190420111958](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420111958.png)
 
 **32) What are the KKT conditions? What is the key implication of them? Including the origin of SVM?**⭐️
 
-![微信图片_20190420112145](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420112145.png)
+![微信图片_20190420112145](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420112145.png)
 
-![微信图片_20190420112149](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420112149.png)
+![微信图片_20190420112149](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420112149.png)
 
-![微信图片_20190420112300](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420112300.png)
+![微信图片_20190420112300](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420112300.png)
 
 **33) What is the idea of soft margin SVM, how it is a nice example of regularization?**⭐️
 
-![微信图片_20190420112335](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420112335.png)
+![微信图片_20190420112335](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420112335.png)
 
 **34) What is the idea of kernel? Why not much additional computational complexity?** ⭐️
 
-![微信图片_20190420112425](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420112425.png)
+![微信图片_20190420112425](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420112425.png)
 
 **35) What is the general idea behind the kernel? What key computation do we perform? Why is it so general in data modeling?**​ ⭐️
 
-![微信图片_20190420112505](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420112505.png)
+![微信图片_20190420112505](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420112505.png)
 
 **36) Why we often want to project a distance “measure” to a different space?**  ⭐️
 
-In many situations, the real data space is usually non-Euclidean. Therefore, we want to project a distance measured in Euclidean space to its real space. (nonlinear $\Rightarrow$ linear) 
+In many situations, the real data space is usually non-Euclidean. Therefore, we want to project a distance measured in Euclidean space to its real space. (nonlinear $/Rightarrow$ linear) 
 
 **37) What a Turin machine can do? What some of the key computable problems a Turin machine can do?**
 
@@ -164,11 +164,11 @@ In many situations, the real data space is usually non-Euclidean. Therefore, we 
 
 **1) Compare the graphical representation with feature vector-based and kernel-based representations;**⭐️
 
-![微信图片_20190420112632](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420112632.png)
+![微信图片_20190420112632](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420112632.png)
 
 **2) Explain why sometime a marginal distribution has to be computed in a graphical model;** ⭐️
 
-![微信图片_20190420112834](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420112834.png)
+![微信图片_20190420112834](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420112834.png)
 
 **3) Why class labels might be the key factor to determine if presumptively different data distributions can be indeed discriminated?** 
 
@@ -176,27 +176,27 @@ In many situations, the real data space is usually non-Euclidean. Therefore, we 
 
 **5) Why a graphical model with latent variables can be a much harder problem?**⭐️
 
-![微信图片_20190420113044](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420113044.png)
+![微信图片_20190420113044](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420113044.png)
 
 **6) What is the key assumption for graphical model? Using HMM as an example, how much computational complexity has been reduced because of this assumption?**⭐️
 
-![微信图片_20190420113125](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420113125.png)
+![微信图片_20190420113125](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420113125.png)
 
 **7) Why does EM not guarantee a global solution? What is a simple proof for that?**⭐️
 
-![微信图片_20190420113206](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420113206.png)
+![微信图片_20190420113206](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420113206.png)
 
 **8) Why is K-mean only an approximate and local solution for clustering?**⭐️
 
-![微信图片_20190420113331](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420113331.png)
+![微信图片_20190420113331](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420113331.png)
 
-**9) How to interpret the HMM-based inference problem from a Bayesian perspective, using the forward\backward algorithm?**⭐️
+**9) How to interpret the HMM-based inference problem from a Bayesian perspective, using the forward/backward algorithm?**⭐️
 
-![微信图片_20190420113417](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420113417.png)
+![微信图片_20190420113417](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420113417.png)
 
 **10) Show how to estimate a given hidden state for a given series of observations using the alpha and beta factors;**  ⭐️
 
-![微信图片_20190420113506](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420113506.png)
+![微信图片_20190420113506](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420113506.png)
 
 **11) How a faster inference process would be constructed, given a converging network?**
 
@@ -227,44 +227,44 @@ In many situations, the real data space is usually non-Euclidean. Therefore, we 
 
 **1) PCA is an example of dimensional reduction method; give a full derivation of PCA with respect to its eigenvectors; explain SVD and how it is used to solve PCA;**⭐️
 
-![微信图片_20190420113803](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420113803.png)
+![微信图片_20190420113803](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420113803.png)
 
 Answer from Newly:
 
 - Interpretation of PCA: 
 
-![微信图片_20190420163253](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420163253.png)
+![微信图片_20190420163253](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420163253.png)
 
 - Interpretation of SVD:
 
-![微信图片_20190420163353](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420163353.png)
+![微信图片_20190420163353](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420163353.png)
 
-![微信图片_20190420163452](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420163452.png)
+![微信图片_20190420163452](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420163452.png)
 
-![微信图片_20190420164654](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420164654.png)
+![微信图片_20190420164654](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420164654.png)
 
-![微信图片_20190420164658](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420164658.png)
+![微信图片_20190420164658](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420164658.png)
 
-![微信图片_20190420164703](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420164703.png)
+![微信图片_20190420164703](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420164703.png)
 
 **2) Compare regular PCA with the low-ranked PCA, what would be advantage using the low-ranked PCA and how it is formulated?**⭐️
 
-![微信图片_20190420113847](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420113847.png)
+![微信图片_20190420113847](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420113847.png)
 
 Extend reading: SPCA can restrict the process of linear combination when calculate the eigenvectors. So that the results have a stronger real-world meaning and easier to be explained.
-Sparse PCA: https:\\blog.csdn.net\zhoudi2010\article\details\53489319 
+Sparse PCA: https://blog.csdn.net/zhoudi2010/article/details/53489319 
 
-![微信图片_20190420121816](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420121816.png)
+![微信图片_20190420121816](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420121816.png)
 
-SPCA原始文献：[H. Zou (2006) Sparse principal component analysis](http:\\www.tandfonline.com\doi\abs\10.1198\106186006X113430) 
+SPCA原始文献：[H. Zou (2006) Sparse principal component analysis](http://www.tandfonline.com/doi/abs/10.1198/106186006X113430) 
 
 **3) What is the difference between a singular value and its Eigen value? Explain the resulting singular values of a SVD for how the features were originally distributed;** 006:18:27
 
 Answer from Newly:
 
-![微信图片_20190420171110](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420171110.png)
+![微信图片_20190420171110](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420171110.png)
 
-![微信图片_20190420171114](C:\Users\54942\Desktop\DM_Fina.g)
+![微信图片_20190420171114](C:/Users/54942/Desktop/DM_Fina.g)
 
 Question2:
 
@@ -279,7 +279,7 @@ Deep learning is a kind of data representation learning. It automatically discov
 
 Split and combination. Learn complex, abstract feature combination. 
 
-![微信图片_20190420121936](.\Images\%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420121936.png)
+![微信图片_20190420121936](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420121936.png)
 
 - Motivation: 
   1. Decompositional approach: multiple building blocks that learns how original data recombine together.
@@ -303,9 +303,9 @@ Loss:
 
 Mathematical justification for deep learning.
 
-(YB writes something on the blackboard...which explains this problem. Something about $n\log n$ overhead for $n^2$ capacity)
+(YB writes something on the blackboard...which explains this problem. Something about $n/log n$ overhead for $n^2$ capacity)
 
-Pruning\Dimension Reduction: Sparsity.
+Pruning/Dimension Reduction: Sparsity.
 
 **7) Discuss convexity of composite functions, what mathematical strategies might be used to at least reduce local solutions?**     
 
@@ -320,7 +320,7 @@ Strategies to reduce local solutions:
 
 Input layers of L2 and hidden layers of L1:
 
-- L2: smooth inputs. Because some data\ features still are really big. L2 cancel to relative weight and average inputs (not to different from each other)
+- L2: smooth inputs. Because some data/ features still are really big. L2 cancel to relative weight and average inputs (not to different from each other)
 - L1: for sparsity. Keep pruning connections between the layers. Sparse networks are computationally tolerant.
 - Sigmoid (softmax): renormalize and recalibrate the outputs. Get probabilistic outputs (Logistic Loss) and try to evaluate from distance from distribution or entropy point of view. Sometimes we use $tanh()$
 
@@ -328,7 +328,7 @@ Input layers of L2 and hidden layers of L1:
 
 Have strong information, low-rank
 DL can dig out the underlying relationship within the data and get the "true" feature
-Problems: Basis function selection, ways of combination (topology), BP(gradient vanish and explode), memory (RNN, LSTM), Computational complexity, Over\Under-fitting 
+Problems: Basis function selection, ways of combination (topology), BP(gradient vanish and explode), memory (RNN, LSTM), Computational complexity, Over/Under-fitting 
 
 
 
@@ -338,12 +338,12 @@ feature selection)
 
 YB's own answer: Two examples
 
-- Posture of human face: high-dimension image and two\ three-dimension representation is good.
+- Posture of human face: high-dimension image and two/ three-dimension representation is good.
 - Simulate Boolean algorithm: how many sigmoid functions you need? Three gates that construct 8 bits truth tables. It is three-dimensional (I don't know what this is about)
 
 **10) Why does the feature decomposition in deep learning then a topological recombination could make a better sampling? What would be the potential problems making deep learning not a viable approach?** 006:40:53
 
-DL is able to decompose data into different primitive parts. These parts cam recombine those other parts. This exponentially or factorially increase the data for possible combinations. This increase the sample capacity and can generate sample $\Rightarrow$ GAN
+DL is able to decompose data into different primitive parts. These parts cam recombine those other parts. This exponentially or factorially increase the data for possible combinations. This increase the sample capacity and can generate sample $/Rightarrow$ GAN
 
 Potential problems: (on slides)
 
@@ -375,7 +375,7 @@ From Turing point of view: CNN just changes the input and get different output. 
 
 Difficulty:
 
-- RNN is a heterogenous and multiscale system. RNN blocks are more individual, and we need to combine them together. RNN itself has local loss. The problem is how to combine local loss (linearly\weighted). there is no global loss. 
+- RNN is a heterogenous and multiscale system. RNN blocks are more individual, and we need to combine them together. RNN itself has local loss. The problem is how to combine local loss (linearly/weighted). there is no global loss. 
 
 **15) In the activation function, there is a constant term “b” to learn, why it is important?**
 
@@ -407,7 +407,7 @@ In reinforcement learning: value-based v.s. policy-based （not covered  in test
 
 - model selection
 - feature selection
-- model\ feature compatible
+- model/ feature compatible
 - dimensionality reduction
 - model robustness 
 - sample complexity
@@ -420,8 +420,8 @@ Using model combination to get a more complex and expressive model, and also fit
 
 From less expressive to more expressive (increase of model expressiveness): 
 
-- For classification: we use $\{+1, -1\}$ or $ \{0, 1\}$
-- Cluster: we look at $\{0, 1\}$ in terms of their combination $\Rightarrow$ Marginal
+- For classification: we use $/{+1, -1/}$ or $ /{0, 1/}$
+- Cluster: we look at $/{0, 1/}$ in terms of their combination $/Rightarrow$ Marginal
 - HMM: model process as a inference and condition that can be updated
 
 **3) What are the potential risks we could take when trying to perform a logistic regression for classification using a sparsity-based regularization?**⭐️ 007:06:14
@@ -440,11 +440,11 @@ For linear model:
 
 **4) Give five different structural constrains for optimization with their corresponding scalars;**⭐️ 007:08:45
 
-- L1 norm: $||x||_{L1} = \sum_{r=1}^{n} |x_i|$ 
+- L1 norm: $||x||_{L1} = /sum_{r=1}^{n} |x_i|$ 
 
   more aggressive
 
-- L2 norm: $||x||_{L2} = \sqrt{\sum_{r=1}^{n} x_i^2}$
+- L2 norm: $||x||_{L2} = /sqrt{/sum_{r=1}^{n} x_i^2}$
 
   more smooth (想象两者的图像)
 
@@ -453,9 +453,9 @@ $$
 ||A||_p = \left(\sum_{i}^{\min\{m,n\}} \sigma_i^p(A) \right)^{1\p}
 $$
 
-- Frobenius norm ($p = 2$): $||A||_{F} = \sqrt{\sum_i^{m}\sum_j^n a_{ij}^2}$
+- Frobenius norm ($p = 2$): $||A||_{F} = /sqrt{/sum_i^{m}/sum_j^n a_{ij}^2}$
 - Nuclear norm ($p=1$): the sum of singular value
-- Spectrum norm ($p = \infty$): maximum singular value
+- Spectrum norm ($p = /infty$): maximum singular value
 
 **5) Give all universal, engineering, and computational principles that we have learned in this course to obtain both conceptually low-complexity model and computationally tractable algorithms?**
 
@@ -534,7 +534,7 @@ Question 1:
 
 Question 2:
 
-- Features are combinations of patterns (context). Pattern\ context v.s. the individual feature
+- Features are combinations of patterns (context). Pattern/ context v.s. the individual feature
 
 **3)     There are a number of nonlinear approaches to learn complex and high dimensional problems, including kernel and neural networks. (a) please discuss the key differences in feature selection between these two alternatives, and their suitability; (b) what are the major difficulties using a complex neural network as a non-linear classifier?** 007:28:18
 
@@ -588,8 +588,8 @@ Both problems are exhaustive (inverse and ill-posed).
 
 3. What is Sparse PCA? What is low-rank PCA?
 
-   [Sparse Principal Component Analysis](<https:\\www.tandfonline.com\doi\pdf\10.1198\106186006X113430?needAccess=true>)
+   [Sparse Principal Component Analysis](<https://www.tandfonline.com/doi/pdf/10.1198/106186006X113430?needAccess=true>)
 
-   [Sparse PCA through Low-rank Approximations](<http:\\proceedings.mlr.press\v28\papailiopoulos13.pdf>)
+   [Sparse PCA through Low-rank Approximations](<http://proceedings.mlr.press/v28/papailiopoulos13.pdf>)
 
 4. 

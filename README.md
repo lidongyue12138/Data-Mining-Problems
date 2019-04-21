@@ -556,29 +556,81 @@ Both problems are exhaustive (inverse and ill-posed).
 
 **4)     For any learning problems, (a) why a gradient-based search is much more favorable than other types of searches? (b) what would be the possible ramifications of having to impose some kinds of sequentiality in both providing data and observing results?** 007:32:44
 
+Question 1: 
 
+
+
+Question 2: 
+
+Gradient is a sequential process. It takes multiple sequential process for a parameter to be learned or to be searched. It depends on the sequentiality of how data is provided. The two process has to be impartible. You cannot have model learned but the data comes later.
 
 **5)     Please use linear regression as the example to explain why L1 is more aggressive when trying to obtain sparser solutions compared to L2? Under what conditions L1 might be a good approximation of the truth, which is L0?**   
 
+Question 1:
 
+very simple.
+
+Question 2:
+
+It is a sequentiality issue. The model being reduced has to be supported by the data. Your data has to be in pace with the dimension reduction. L0 means you have to do exhaustive search and look for the best possible combination. In the actual regression, it is a sequential process. It depends on timing of this issue. If your data is mixed, the timing is not important. 
 
 **6)     What is the key difference between a supervised vs. unsupervised learnings (where we do not have any ideas about the labels of our data)? Why unsupervised learning does not guaranty a global solution? (use mathematical formulas to discuss).**       
 
+Question 1
 
+YB writes something on the board. 
+
+Differences: 
+
+- Global solution v.s. Local solution
+
+Question 2
+
+Discuss about EM algorithm (Mathematical Formulation).
 
 **7)     For HMM, (a) please provide a Bayesian perspective about the forwarding message to enhance an inference (using a mathematical form to discuss); how to design a more generalizable HMM which can still converge efficiently?**
 
+Question 1:
 
+Write down the forward process of HMM
+
+Discuss the prior update. 
+
+( Relate $\alpha$ to human and $\beta$ to machine)
+
+Question 2:
+
+We want this eventually converges but not too subtle. Progression of $\alpha​$ is sudden or slow during which a number of possibility has to be involved. Therefore, more possible scenarios have to be included. That is more generalizable. 
 
 **8)     Using a more general graphical model to discuss (a) the depth of a developing prior-distribution as to its contribution for a possible inference; (b) how local likelihoods can be used as the inductions to facilitate the developing inference?**
 
+Question 1:
 
+How long or how deep the alpha has to be propagate. Sometimes we need to the alpha to change as quick as possible and sometimes we want to get as deep as possible. We take multiple additional factors into account. The decision is more comprehensive. If you go too quick in the beginning, you can actually be biased by some local factor. 
+
+Question 2:
+
+Posterior = likelihood x prior. This update the prior by times the local likelihood.   
 
 **9)     Learning from observation is an ill-posed problem, however we still work on it and even try to obtain convex, linear, and possibly generalizable solutions. Please discuss what key strategies in data mining we have developed that might have remedied the ill-posed nature at least in part? Why in general linear models are more robust than other more complex ones?**
 
+Question 1:
 
+YB skipped this problem.
+
+Question 2:
+
+YB skipped this problem.
 
 **10)   Using logistic regression and likelihood estimation for learning a mixture model (such as the Gaussian Mixture Model), please using Bayesian perspective to discuss the differences and consistencies of the two approaches; why logistic function is a universal posterior for many mixture models?**
+
+Question 1:
+
+First one is more sensitive towards the boundary data. Second is a generative model that is more robust which takes more data into account. Regression has no assumption about the model. The two approach is unnecessarily identical
+
+Question 2:
+
+As long as a distribution is exponential, logistic function is a universal posterior for it. 
 
 # Technical Problems
 
@@ -592,5 +644,11 @@ Both problems are exhaustive (inverse and ill-posed).
 
    [Sparse PCA through Low-rank Approximations](<http://proceedings.mlr.press/v28/papailiopoulos13.pdf>)
 
-4. 
+4. EM algorithm and its locality
+
+5. HMM and $\alpha$- and $ \beta$-update 
+
+6. Graphical model
+
+7. Gaussian Mixture Model
 

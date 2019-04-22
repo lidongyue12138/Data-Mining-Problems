@@ -8,27 +8,122 @@ trying to solve inverse problems (from data to model) and infer general rules fr
 
 因为数据挖掘处理的数据往往有着维数高，多模型混合生乘，时变等复杂特征，当我们通过⼀个模型去拟合数据时，肯定忽略了数据的⼀些复杂特征，或者说， 不管我们采用哪种模型，都不可能保证完全形容出数据的所有特征。而且在我们选择模型的时候，也不可能从所有的模型中选择最好的，因为穷举的复杂度是极高的。
 
+Bayesian approach. Prior can be possibly found.
+
 **2) Why gradient is the key mathematical assumption that we could count on in order to search? What would be the general implications for the existence of at least some continuality or locality?**
+
+- MBJ
+- 1.Gradient is the basis in Data Mining/AI/ML. 
+- Assumption : locally stationary, locally smooth (not jumping) ---- Locality.
+- Developing a gredient system enables us to tune the parameter following the direction of gredient. It save us from exaustive search.
+  
+- 2.By gradient, we assume that the function is locally smooth, continuous, has stationary point, differentialable. (Not necessarily global, but at least locally)The real world is likely to be continuous physically. Natural process is unlikely to be discrete.
+- Also, if no gredient exists, no other math tools we can rely on.
 
 **3) What is the generalizability of a mathematical process, from both expressive (smoothness) and inclusive (capacity) point of views?**
 
+- MBJ
+- Expressive : be able to encode/decode/translate the input as detail as possible
+  - e.g. if non-liear process, if we use linear model, we may lose something. Only capture part of. Mathetically we always want to find a precise solution. Something , but it may leads to difficulty. To reduce complexity, we may use some low dimension model. Being able to do so means lose some feature.
+  - so expressive to be able to contain as many input to be able to encode/decode/translate as detail as possible.
+  - overfitting, underfitting. 似乎是expressive这根轴的两头。
+- Inclusive : propolsion to all possible input. 
+- 我没搞懂inclusive是什么意思。是扩大定义域吗？
+
 **4) What would be some of the solutions for such an ill-posed problem in order to yield at least some reasonable results?**
+
+- MBJ
+- In PPT (1). Gredient. Reduce dim. All kinds of tricks. Normalize. Sparse. Convex. Linear boundary. Try our best to deal with the most ill-posed problems.
+- 我们这课就贯穿了这个思想。
 
 **5) What are some of the mathematical hurdles that have prevented more generalizable solutions?**
 
+- MBJ
+- Linear, expressive -> local solutions. Singularity.
+- Increase dimension. 
+- Cursal dimensionality.
+- Pick the most influential.
+- True space in a number
+- Hetogenious/dirty data space
+- Bring mathematical/computational complexity.
+- We have to find alternative/compromise/tricks to overcome.
+- 
 **6) Why variable dependences (interactions) could become an extremely difficult and even an impossible problem? Give philosophical, mathematical, physical, computational, and numerical examples for such a singularity.**  
+
+- MBJ
+- variable dependency ??????
+
+- Philosophical : 真理不可证明。A third reference needs to be discovered. (How to choose the reference?)
+- Mathematical : Ferma's theorem
+- Physical : n-body problem
+- Computational : concurrency problem/ halting problem
+- Numerical :  sensitive problem/initial value problem
+
 
 **7) Why a Euclidian-based measure would be most favored but usually impossible to obtain for a real world issue?**
 
+- MBJ （21')
+- Not normalized, generalized, othogonol with each other.
+- We want number to describe heruistic. Things to describe the 
+- centralize as universal. As gradient as possible.
+- Hetogenious : no relavence to each other. 
+- Feature engineering, measure, be able to deferentianate.
+- Have such a measure.
+- Numerically 
+- Iteration, recursion. All of things require a number/
+
+- A complex, hetogenious feature, not relavent with each other.
+- Numbers not necessarily normalized.
+- Do not expanded in the same way. (Heteogenious.)
+
 **8) What are some of the key requirements for a real issue to be formulated as a Euclidian problem?**
 
+- MBJ(28'55'')
+- Othogonol, able to normalize, expand in the same way, the same measure to describe something (Better in a linear space)
+- try difference loss to formulate Euclidian problem
+- It is a dirty process for numerical problems.
+
 **9) What would be the mathematical alternative frameworks to translate a non-Euclidian problem to mathematically appropriate solutions?**
+
+- MBJ 30'00
+
+- Two major problem : select model, select feature.
+
+- (1) Recombine, select feature, to make then independent. Graphic model will be an alternative
+- Feature are connected, instead of really c
+- Realizing the com ,underlying the as the structure.
+- True sort of the way
+- 这题我崩了，讲的什么jb玩意
+- 35'55
 
 **10) Why in general the complex and high-dimensional data (the so-called big data problem, n<<p) from the same “class” tend to have a low dimensional representation?**      
 
 dimensionality reduction. Regularization. low D solution to high D problem. 
 
+- Big data problem : many dimension . Too many variable , too little formula. Undefined equation.
+- Counter-intuitive. A high dimensional problem have a very low dimension.
+- We have to believe. Because it is limited by humans. At least in general size, human's perception will not be able to precept or sense high dimensional problem.
+  - e.g. Even a picture have many pixels, many of them are redundent.  
+  - All physical, perceptional process, many feature are redundent. 
+- (General, intuitional point).
+- Human are low dimensional beings.
+- We need, and we should have a low-dimensional to capture human's perceptions.  
+
+- Proof: 这段我没听懂，有谁在ppt上找到了的知会一声
+- Tao Zhexuan, Pure statistical, not all feature are meaningful, feature will cancel each other.
+- Principles can be recovered from those high dimensional
+
 **11) Why we would prefer a low complexity model for a high complex problem?**
+
+- (1) Numerical justification, General Sense
+- Model complexity.
+- Underfitting/overfitting.
+- Overfitting is worse. It exponential, a more complex model increase the risk.
+- Lower complex model will capture the main feature instead of the detail.
+- Thus we like major determinents, principle components to increase **robustness**.降维
+- (2) Complexity issue : much time, space
+- (3) Mathematically : may be less possible local solution, less singularity. Global solution. Enlower dimension, an easier solution
+- 45'55''
 
 **12) What is a loss function? Give three examples (Square, Log, Hinge) and describe their shapes and behaviors.** ⭐️
 
@@ -94,7 +189,7 @@ Convexity means the global optimum is unique and we can use Gradient-based metho
 
 ![微信图片_20190420111831](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420111831.png)
 
-29) What are the key problems with the complex Neural Network with complex integrations of non-linear model? 
+1)  What are the key problems with the complex Neural Network with complex integrations of non-linear model? 
 
 **30) What are three alternatives to approach a constrained maximization problem?**⭐️
 

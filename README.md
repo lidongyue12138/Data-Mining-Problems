@@ -1,5 +1,36 @@
 # Data-Mining-Problems
 
+本文档使用指南：
+
+1. 注意本文档构成：我们copy的以往学长考试总结+YB老师上课录音听力+其他课程的公式推导
+
+2. 本着互利分享的原则，你可以选择自行学习或者你可以选择贡献一部分力量：当你发现问题时，或者有更好的解答时候，可以对文档进行修改并pull request。
+3. 我们建议你先学习Technical Problems。在保证你对以下technical problem有所孰知的时候，再阅读下面的问题，你将会更能理解YB老师的意思。
+
+# Technical Problems
+
+1. SVM formulations
+
+2. PCA formulation, SVD formulation, and eigenvalue decomposition.
+
+3. What is Sparse PCA? What is low-rank PCA?
+
+   [Sparse Principal Component Analysis](<https://www.tandfonline.com/doi/pdf/10.1198/106186006X113430?needAccess=true>)
+
+   [Sparse PCA through Low-rank Approximations](<http://proceedings.mlr.press/v28/papailiopoulos13.pdf>)
+
+4. EM algorithm and its locality
+
+5. HMM and $\alpha$- and $ \beta$-update 
+
+6. Graphical model
+
+7. Gaussian Mixture Model
+
+8. Regressions
+
+# Reference Problems
+
 ### Learning and Search
 
 **1) Why all learning problems are inverse problems, requiring unbounded exhaustive searches, thus ill-posed?** 
@@ -631,24 +662,4 @@ First one is more sensitive towards the boundary data. Second is a generative mo
 Question 2:
 
 As long as a distribution is exponential, logistic function is a universal posterior for it. 
-
-# Technical Problems
-
-1. SVM formulations
-
-2. PCA formulation, SVD formulation, and eigenvalue decomposition.
-
-3. What is Sparse PCA? What is low-rank PCA?
-
-   [Sparse Principal Component Analysis](<https://www.tandfonline.com/doi/pdf/10.1198/106186006X113430?needAccess=true>)
-
-   [Sparse PCA through Low-rank Approximations](<http://proceedings.mlr.press/v28/papailiopoulos13.pdf>)
-
-4. EM algorithm and its locality
-
-5. HMM and $\alpha$- and $ \beta$-update 
-
-6. Graphical model
-
-7. Gaussian Mixture Model
 

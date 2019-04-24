@@ -94,10 +94,10 @@ Bayesian approach. Prior can be possibly found.
 **7) Why a Euclidian-based measure would be most favored but usually impossible to obtain for a real world issue?**
 
 - MBJ （21')
-- Not normalized, generalized, othogonol with each other.
+- Not normalized, generalized, orthogonal with each other.
 - We want number to describe heruistic. Things to describe the 
 - centralize as universal. As gradient as possible.
-- Hetogenious : no relavence to each other. 
+- Homogeneous : no relevance to each other. 
 - Feature engineering, measure, be able to deferentianate.
 - Have such a measure.
 - Numerically 
@@ -110,7 +110,7 @@ Bayesian approach. Prior can be possibly found.
 **8) What are some of the key requirements for a real issue to be formulated as a Euclidian problem?**
 
 - MBJ(28'55'')
-- Othogonol, able to normalize, expand in the same way, the same measure to describe something (Better in a linear space)
+- Orthogonal, able to normalize, expand in the same way, the same measure to describe something (Better in a linear space)
 - try difference loss to formulate Euclidian problem
 - It is a dirty process for numerical problems.
 
@@ -220,7 +220,7 @@ Convexity means the global optimum is unique and we can use Gradient-based metho
 
 ![微信图片_20190420111831](./Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190420111831.png)
 
-1)  What are the key problems with the complex Neural Network with complex integrations of non-linear model? 
+**29)  What are the key problems with the complex Neural Network with complex integrations of non-linear model?** 
 
 **30) What are three alternatives to approach a constrained maximization problem?**⭐️
 
@@ -678,7 +678,7 @@ Question 2:
 - gradient vanishing
 - singularity
 
-Both problems are exhaustive (inverse and ill-posed).
+Both problems are exhaustive (inverse and ill-posed). 
 
 **4)     For any learning problems, (a) why a gradient-based search is much more favorable than other types of searches? (b) what would be the possible ramifications of having to impose some kinds of sequentiality in both providing data and observing results?** 007:32:44
 
